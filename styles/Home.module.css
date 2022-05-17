@@ -1,0 +1,17 @@
+.container {
+  padding: 0 1.6rem;
+  padding-right: 2.7rem !important;
+}
+
+.iconFaFacebook {
+  /* color: blue; */
+  font-size: 1rem;
+}
+
+
+
+.photo_shadow{
+  -webkit-box-shadow: 0 8px 6px -6px black;
+   -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+}

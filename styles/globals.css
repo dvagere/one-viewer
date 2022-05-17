@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sideBar_column_gap {
+  column-gap: 12px;
+  padding: 0px 27px;
+}
+.h-screen-NoScroll {
+  height: 97.5vh;
+}
+.sidebareAside {
+  background-color: "#343339";
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+/* width */
+.sidebareAside::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.sidebareAside::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.sidebareAside::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.sidebareAside::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.iconbuttonDG {
+  width: 35px;
+  height: 35px;
+}
+
+.iconButtonGroup {
+  display: flex;
+  justify-content: flex-end;
+  padding: 29px 47px;
+  margin-bottom: 52px;
+}
+
+.grid_image_size {
+  width: 100%;
+  max-height: 276px;
+  border-radius: 29px;
+  border: 5px solid white;
+}
+
+.globalImageGall {
+  padding: 1.6rem;
+}
+
+/* width */
+.galleryLayoutScroll::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.galleryLayoutScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.galleryLayoutScroll::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.galleryLayoutScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.asideMinimize {
+  width: 92px !important;
+  transition: all 0.5s;
+}
+
+.asideMinimize ul.tracking-wide {
+  width: 106px;
+  float: left;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.asideMinimize ul.tracking-wide li.px-2.hover\:bg-sidebarBg.rounded-xl.rounded.py-4 {
+  display: inline-block;
+}
+
+.asideMinimize
+  ul.tracking-wide
+  li.px-2.hover\:bg-sidebarBg.rounded-xl.rounded.py-4
+  .sideBar_column_gap
+  span:nth-child(2) {
+  display: none;
+}
+
+.asideNavMinPage {
+  width: 96% !important;
+  margin-left: 6% !important;
+}
+
+#showSideMinize {
+  position: fixed;
+  background: #27272a;
+  padding: 5px 5px;
+  z-index: 999;
+  margin-left: 296px;
+  top: 54%;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ssMIcon {margin-left: 84px !important;}
